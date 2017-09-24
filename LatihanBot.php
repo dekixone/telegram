@@ -1,22 +1,4 @@
 <?php
-/*
-BOT PENGANTAR
-Materi EBOOK: Membuat Sendiri Bot Telegram dengan PHP
-Ebook live http://telegram.banghasan.com/
-oleh: bang Hasan HS
-id telegram: @hasanudinhs
-email      : banghasan@gmail.com
-twitter    : @hasanudinhs
-disampaikan pertama kali di: Grup IDT
-dibuat: Juni 2016, Ramadhan 1437 H
-nama file : PertamaBot.php
-change log:
-revisi 1 [15 Juli 2016] :
-+ menambahkan komentar beberapa line
-+ menambahkan kode webhook dalam mode comment
-Pesan: baca dengan teliti, penjelasan ada di baris komentar yang disisipkan.
-Bot tidak akan berjalan, jika tidak diamati coding ini sampai akhir.
-*/
 //isikan token dan nama botmu yang di dapat dari bapak bot :
 $TOKEN      = "347705517:AAFzSlb9Arev84SjI2JpuZtw2nhPOUQ-WPU";
 $usernamebot= "@DamantaBot"; // sesuaikan besar kecilnya, bermanfaat nanti jika bot dimasukkan grup.
@@ -104,7 +86,7 @@ function create_response($text, $message)
             break;
         // balasan default jika pesan tidak di definisikan
         default:
-            $hasil = 'Terimakasih, pesan telah kami terima.';
+            $hasil = 'Terimakasih, pesan anda telah kami terima mohon menunggu.';
             break;
     }
     return $hasil;
