@@ -80,10 +80,14 @@ function create_response($text, $message)
          
             break;
         
+     case '/deki':
+      $hasil = 'Hai Deki, Selamat datang NIK Anda 90170038 Unit Kerja SDI Telkom Akses Bengkulu';
+      break;
+      
         // jika ada permintaan waktu
-        case '/90170038':
-        case '/90170038'.$usernamebot :
-            $hasil  = "$namauser, waktu lokal bot sekarang adalah :\n NIK : 90170038 Unit : SDI Telkom Akses Bengkulu \n";
+        case '/time':
+        case '/time'.$usernamebot :
+            $hasil  = "$namauser, waktu lokal bot sekarang adalah :\n";
             $hasil .= date("d M Y")."\nPukul ".date("H:i:s");
             break;
         // balasan default jika pesan tidak di definisikan
