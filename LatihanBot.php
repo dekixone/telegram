@@ -72,10 +72,17 @@ function create_response($text, $message)
     $command = explode(' ',$textur,2); //
    // identifikasi perintah (yakni kata pertama, atau array pertamanya)
     switch ($command[0]) {
-        // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
-        case '/nik 90170038':
+       // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
+        case '/90170038':
         case '/id'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
-            $hasil = "$namauser, ID kamu adalah $fromid Nama : Deki Firmansyah NIK : 90170038 Unit : SDI Telkom Akses Bengkulu";
+            $hasil = "Nama : $namauser, ID kamu adalah $fromid";
+            $hasil .= 'NIK :90170038 Unit Kerja : SDI Telkom Akses Bengkulu'
+            break;
+      
+        // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
+        case '/id':
+        case '/id'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
+            $hasil = "$namauser, ID kamu adalah $fromid";
          
             break;
         
