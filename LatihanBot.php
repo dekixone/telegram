@@ -173,11 +173,11 @@ while (true) {
 // metode webhook
 // secara normal, hanya bisa digunakan secara bergantian dengan polling
 // aktifkan ini jika menggunakan metode webhook
-/*
+
 $entityBody = file_get_contents('php://input');
 $pesanditerima = json_decode($entityBody, true);
 process_message($pesanditerima);
-*/
+
 /*
  * -----------------------
  * Grup @botphp
