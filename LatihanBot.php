@@ -76,7 +76,7 @@ function create_response($text, $message)
         case '/90170038':
         case '/90170038'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
             $hasil = "Nama : $namauser, ID kamu adalah $fromid";
-            $hasil .= 'NIK :90170038 Unit Kerja : SDI Telkom Akses Bengkulu'
+            $hasil .= 'NIK :90170038 Unit Kerja : SDI Telkom Akses Bengkulu';
             break;
       
         // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
