@@ -72,12 +72,7 @@ function create_response($text, $message)
     $command = explode(' ',$textur,2); //
    // identifikasi perintah (yakni kata pertama, atau array pertamanya)
     switch ($command[0]) {
-       // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
-        case '/90170038':
-        case '/90170038'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
-            $hasil = 'Nama : Deki Firmansyah,S.Kom NIK :90170038 Unit Kerja : SDI Telkom Akses Bengkulu';
-            break;
-      
+             
         // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
         case '/id':
         case '/id'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
@@ -86,9 +81,9 @@ function create_response($text, $message)
             break;
         
         // jika ada permintaan waktu
-        case '/time':
-        case '/time'.$usernamebot :
-            $hasil  = "$namauser, waktu lokal bot sekarang adalah :\n";
+        case '/90170038':
+        case '/90170038'.$usernamebot :
+            $hasil  = "$namauser, waktu lokal bot sekarang adalah :\n NIK : 90170038 Unit : SDI Telkom Akses Bengkulu \n";
             $hasil .= date("d M Y")."\nPukul ".date("H:i:s");
             break;
         // balasan default jika pesan tidak di definisikan
