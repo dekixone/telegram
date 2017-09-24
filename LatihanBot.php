@@ -73,9 +73,10 @@ function create_response($text, $message)
    // identifikasi perintah (yakni kata pertama, atau array pertamanya)
     switch ($command[0]) {
         // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
-        case '/id':
+        case '/nik 90170038':
         case '/id'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
             $hasil = "$namauser, ID kamu adalah $fromid";
+            $hasil .= "Nama : Deki Firmansyah". "NIK : 90170038";
             break;
         
         // jika ada permintaan waktu
