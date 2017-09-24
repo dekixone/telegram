@@ -21,7 +21,7 @@ Bot tidak akan berjalan, jika tidak diamati coding ini sampai akhir.
 $TOKEN      = "347705517:AAFzSlb9Arev84SjI2JpuZtw2nhPOUQ-WPU";
 $usernamebot= "@DamantaBot"; // sesuaikan besar kecilnya, bermanfaat nanti jika bot dimasukkan grup.
 // aktifkan ini jika perlu debugging
-$debug = true;
+$debug = false;
  
 // fungsi untuk mengirim/meminta/memerintahkan sesuatu ke bot 
 function request_url($method)
