@@ -75,8 +75,8 @@ function create_response($text, $message)
         // jika ada pesan /id, bot akan membalas dengan menyebutkan idnya user
         case '/nik 90170038':
         case '/id'.$usernamebot : //dipakai jika di grup yang haru ditambahkan @usernamebot
-            $hasil = "$namauser, ID kamu adalah $fromid";
-            $hasil .= "Nama : Deki Firmansyah". "NIK : 90170038";
+            $hasil = "$namauser, ID kamu adalah $fromid Nama : Deki Firmansyah NIK : 90170038 Unit : SDI Telkom Akses Bengkulu";
+         
             break;
         
         // jika ada permintaan waktu
