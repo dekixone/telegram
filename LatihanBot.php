@@ -79,10 +79,7 @@ function create_response($text, $message)
             $hasil = "$namauser, ID kamu adalah $fromid";
          
             break;
-        
-     case '/deki':
-      $hasil = 'Hai Deki, Selamat datang NIK Anda 90170038 Unit Kerja SDI Telkom Akses Bengkulu';
-      break;
+   
       
         // jika ada permintaan waktu
         case '/time':
